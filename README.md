@@ -1,2 +1,2 @@
 # tecnosul
-Criação do site
+Desenvolvimento do site da tecnosul
