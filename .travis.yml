@@ -15,4 +15,4 @@ install:
   - pipenv sync -d
 
 script:
-  - pipenv
+  - pipenv run pytest
