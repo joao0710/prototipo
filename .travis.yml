@@ -15,4 +15,7 @@ install:
   - pipenv sync -d
 
 script:
-  - pipenv run pytest
+  - pipenv run pytest --cov=sitetecnosul
+
+after_success:
+  - pipenv run codecov
