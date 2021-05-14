@@ -130,6 +130,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
 
 COLLECTFAST_ENABLED = False
+COLLECTFAST_STRATEGY = 'collectfast.strategies.boto3.Boto3Strategy'
 
 if AWS_ACCESS_KEY_ID:
     AWS_SECRET_ACCESS_KEY = config('AWS_SECRET_ACCESS_KEY')
